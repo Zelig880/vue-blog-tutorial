@@ -54,7 +54,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .article {
-  width: 100%;
+  width: 95%;
   padding: 15px;
 }
 .article img {
