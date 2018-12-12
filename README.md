@@ -1,10 +1,11 @@
-# test-project
+# vue-blog-tutorial
 
-> A Vue.js project
+> This project has been build to be used as a training platform for developers that would like to get started with VueJs.
+> The repository emulates a simple Blog Application, using main feature form the Vue APi, such as mixins, Single page component ( vue files), mixins, etc..
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
