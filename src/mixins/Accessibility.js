@@ -1,36 +1,36 @@
 export default {
   props: {
-    dayTextColour: {
+    lightTextColour: {
       type: String,
       default: "#252525"
     },
-    dayBackgroundColour: {
+    lightBackgroundColour: {
       type: String,
       default: "#fff"
     },
-    nightTextColour: {
+    darkTextColour: {
       type: String,
       default: "#fff"
     },
-    nightBackgroundColour: {
+    darkBackgroundColour: {
       type: String,
       default: "#252525"
     }
   },
   data() {
     return {
-      isDay: true
+      isLight: true
     };
   },
   methods: {
     toggleHighContrast() {
-      this.isDay = !this.isDay;
-      if (this.isDay) {
-        this.$el.style.backgroundColor = this.dayBackgroundColour;
-        this.$el.style.color = this.dayTextColour;
+      this.isLight = !this.isLight;
+      if (this.isLight) {
+        this.$el.style.backgroundColor = this.lightBackgroundColour;
+        this.$el.style.color = this.lightTextColour;
       } else {
-        this.$el.style.backgroundColor = this.nightBackgroundColour;
-        this.$el.style.color = this.nightTextColour;
+        this.$el.style.backgroundColor = this.darkBackgroundColour;
+        this.$el.style.color = this.darkTextColour;
       }
     }
   }
